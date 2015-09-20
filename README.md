@@ -1,2 +1,2 @@
 # MapReduce
-MapReduce programs for Hadoop
+MSIA 431 Analytics for Big Data: MapReduce programs for Hadoop

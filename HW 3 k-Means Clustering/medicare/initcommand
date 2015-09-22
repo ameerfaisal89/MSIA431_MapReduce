@@ -1,0 +1,3 @@
+hadoop fs -rm medicare/initcentroids
+hadoop fs -put initcentroids medicare/initcentroids
+beetle kMeans.java medicare/data2 medicare/initcentroids medicare/vars medicare/meanstddev

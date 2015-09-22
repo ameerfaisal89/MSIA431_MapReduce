@@ -1,0 +1,6 @@
+awk '$1=$1' OFS="\t" clustering.txt > new.txt
+head new.txt
+cut -f1-5 new.txt > blah.txt
+head blah.txt
+
+awk '{ if (NR > 1) print }' /home/public/course/clustering/Medicare-Physician-and-Other-Supplier-PUF-CY2012.txt | shuf -n 5 -o starting.txt
